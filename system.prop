@@ -10,6 +10,9 @@ ro.af.client_heap_size_kbyte=7168
 ro.config.vc_call_vol_steps=11
 ro.qc.sdk.audio.fluencetype=none
 
+# Apex
+ro.apex.updatable=true
+
 # Bluetooth
 persist.vendor.btstack.aac_frm_ctl.enabled=true
 persist.vendor.btstack.enable.twsplus=true
