@@ -169,6 +169,17 @@ persist.audio.dirac.speaker=true
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
+# Graphics
+debug.sdm.support_writeback=0
+debug.sf.disable_backpressure=1
+debug.hwui.usebufferage=false
+debug.sf.highfpsearlyphaseoffset_ns=6100000
+debug.sf.highfpsearlyglphaseoffsetns=9000000
+debug.sf.phaseoffsetthresholdfornextvsyncns=6100000
+ro.surfaceflinger.protectedcontents=true
+ro.surfaceflinger.maxframebufferacquired_buffers=3
+debug.sf.latch_unsignaled=1
+
 # Display
 debug.sf.use_phase_offsets_as_durations=1
 debug.sf.late.sf.duration=10500000
