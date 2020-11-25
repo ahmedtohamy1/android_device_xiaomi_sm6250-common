@@ -1,1 +1,2 @@
 allow init su:process { noatsecure  rlimitinh  siginh  transition };
+allow init init:binder { call };

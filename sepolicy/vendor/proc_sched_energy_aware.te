@@ -1,0 +1,1 @@
+allow proc_sched_energy_aware proc_sched_energy_aware:file { write };

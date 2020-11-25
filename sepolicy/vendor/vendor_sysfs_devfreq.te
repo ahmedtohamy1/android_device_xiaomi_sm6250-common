@@ -1,0 +1,1 @@
+allow vendor_sysfs_devfreq vendor_sysfs_devfreq:file { write };
